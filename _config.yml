@@ -1,21 +1,18 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
-    Rss: /atom.xml
+    About: /2016/03/18/About/
+    Twitter: https://twitter.com/hkalexling
+    GitHub: https://github.com/hkalexling
 
-favicon: /favicon.png
-logo: /favicon.png
+favicon: /favicon.ico
+logo: https://pbs.twimg.com/profile_images/710182904517632000/5hqFB3RR.jpg
 
 # Comment
 # e.g disqus: seansun
-disqus:
-duoshuo:
+disqus: yunolab
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: UA-66085745-2
 
 # Copyright Infomation
 startyear: 2015
