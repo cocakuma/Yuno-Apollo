@@ -1,1 +1,1 @@
-# A Hexo theme based on [Apollo](https://github.com/pinggod/hexo-theme-apollo)
+A Hexo theme based on [Apollo](https://github.com/pinggod/hexo-theme-apollo)
