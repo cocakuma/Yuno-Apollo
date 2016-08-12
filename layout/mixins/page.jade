@@ -7,20 +7,24 @@ mixin page(page)
 				- var type = page.type
 				- var comments = page.comments
 
-				- if (type != null)
-					- if (type === "friends")
-						div.friend-list
-							- var friends = theme.friends
-							- var count = 0
-							- for (var title in friends)
-								- count += 1
-								- if (count == 1)
-									.friend-item-0
-										h2!=title
-										a(href=friends[title])!=friends[title]
-									- continue
-								.friend-item
+				- if (type === "friends")
+					div.friend-list
+						- var friends = theme.friends
+						- var count = 0
+						- for (var title in friends)
+							- count += 1
+							- if (count == 1)
+								.friend-item-0
 									h2!=title
 									a(href=friends[title])!=friends[title]
-						div.friend-statement
-							p!='Please contact me if you want your blog or personal website to appear here <3'
+								- continue
+							.friend-item
+								h2!=title
+								a(href=friends[title])!=friends[title]
+					div.friend-statement
+						p!='Please contact me if you want your blog or personal website to appear here <3'
+				- if (type === "about")
+					.post
+						article.post-block
+							.post-content
+								!= page.content
