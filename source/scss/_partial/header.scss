@@ -12,6 +12,14 @@ header {
 
     .logo-link img {
         height: 60px;
+        border-radius: 30px;
+        transition-duration: 0.8s;
+        transition-property: transform;
+    }
+
+    .logo-link img:hover {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
     }
 
     .nav-list-item {

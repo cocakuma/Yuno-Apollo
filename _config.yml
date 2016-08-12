@@ -1,10 +1,12 @@
 menu:
     About: /2016/03/18/About/
-    Twitter: https://twitter.com/hkalexling
+    # Twitter: https://twitter.com/hkalexling
     GitHub: https://github.com/hkalexling
+    Archives: /archives
+    Friends: /friends
 
 favicon: /favicon.ico
-logo: https://pbs.twimg.com/profile_images/710182904517632000/5hqFB3RR.jpg
+logo: /logo.jpg
 
 # Comment
 disqus: yunolab
@@ -15,3 +17,13 @@ ga: UA-66085745-2
 
 # Copyright Infomation
 startyear: 2015
+
+# Hide posts with these titles from index page and archives page
+hidden_posts: [About]
+
+goup_button: true
+
+friends:
+  小萌 JustZht: http://www.justzht.com
+  西二旗 xierch: https://blog.sorz.org
+  泽酱 ntzyz: https://www.ntzyz.cn

@@ -11,12 +11,12 @@
     .post-title-link {
         display: block;
         margin-left: 125px;
-        color: #42b983;
+        color: $theme_color;
         word-break: break-all;
-        &:hover {
-            border-bottom: 0;
-            color: #267B54;
-        }
+        // &:hover {
+        //     border-bottom: 0;
+        //     color: #267B54;
+        // }
     }
     .post-info {
         float: left;
