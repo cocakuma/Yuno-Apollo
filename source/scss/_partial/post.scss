@@ -167,11 +167,15 @@ pre {
     }
 }
 
-$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts");
+$signs: ("html", "js", "bash", "css", "scss","diff", "java", "xml", "python", "json", "swift", "ruby", "perl", "php", "c", "java", "cpp", "ts", "objc");
 @include code-signs($signs);
 
 .highlight.cpp .code:after {
     content: 'C++';
+}
+
+.highlight.objc .code:after {
+    content: 'Objective-C';
 }
 
 pre {
