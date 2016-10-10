@@ -19,7 +19,7 @@ ga: UA-66085745-2
 startyear: 2015
 
 # Hide posts with these titles from index page and archives page
-hidden_posts: [About]
+hidden_posts: []
 
 goup_button: true
 
